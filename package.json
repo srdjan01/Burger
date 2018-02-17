@@ -1,0 +1,31 @@
+{
+  "name": "burger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srdjan01/Burger.git"
+  },
+  "author": "Srdjan Markovich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/srdjan01/Burger/issues"
+  },
+  "homepage": "https://github.com/srdjan01/Burger#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "inquirer": "^5.1.0",
+    "method-override": "^2.3.10",
+    "mysql": "^2.15.0",
+    "name": "0.0.2",
+    "package": "^1.0.1",
+    "requirer": "0.0.4",
+    "yarn-install": "^0.5.1"
+  }
+}

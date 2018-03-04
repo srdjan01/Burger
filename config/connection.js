@@ -15,7 +15,7 @@ connection.connect(function(err) {
   readBurger();
 });
 function readBurger() {
-  connection.query("SELECT name FROM burger", function(err, res) {
+  connection.query("SELECT burger_name FROM burger", function(err, res) {
     if (err) throw err;
     // Log all results of the SELECT statement
     console.log(res);
